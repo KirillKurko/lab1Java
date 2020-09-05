@@ -1,7 +1,5 @@
 package classes;
 
-import classes.City;
-
 public class WriterInfo {
 
     public void printCityName(City city) {

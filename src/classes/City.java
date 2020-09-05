@@ -2,8 +2,8 @@ package classes;
 
 public class City {
     private String name;
-    private  double population;
-    private  double area;
+    private double population;
+    private double area;
 
     public City() {
         name = "";
