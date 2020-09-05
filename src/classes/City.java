@@ -46,10 +46,4 @@ public class City {
     public void setArea(double area) {
         this.area = area;
     }
-
-    public void printInformation() {
-        System.out.println("Name: " + name);
-        System.out.println("Population: " + population);
-        System.out.println("Area: " + area);
-    }
 }
