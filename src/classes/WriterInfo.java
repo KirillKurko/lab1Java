@@ -27,4 +27,9 @@ public class WriterInfo {
     public static void printMillionCitiesAmount(City[] cities) {
         System.out.println("Million cities amount: " + CityInformationHelper.calculateMillionCities(cities));
     }
+
+    public static void printCitiesInformation(City[] cities) {
+        printCitiesTotalArea(cities);
+        printMillionCitiesAmount(cities);
+    }
 }
