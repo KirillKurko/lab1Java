@@ -20,7 +20,11 @@ public class WriterInfo {
        printCityArea(city);
     }
 
-    public static void printSitiesTotalArea(City[] cities) {
+    public static void printCitiesTotalArea(City[] cities) {
         System.out.println("Cities total area: " +  CityInformationHelper.calculateTotalArea(cities));
+    }
+
+    public static void printMillionCitiesAmount(City[] cities) {
+        System.out.println("Million cities amount: " + CityInformationHelper.calculateMillionCities(cities));
     }
 }
