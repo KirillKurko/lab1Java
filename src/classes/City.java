@@ -1,4 +1,4 @@
-package com.company;
+package classes;
 
 public class City {
     private String name;

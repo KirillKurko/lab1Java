@@ -1,5 +1,8 @@
 package com.company;
 
+import classes.City;
+import classes.WriterInfo;
+
 public class Main {
 
     public static void main(String[] args) {

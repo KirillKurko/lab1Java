@@ -1,4 +1,6 @@
-package com.company;
+package classes;
+
+import classes.City;
 
 public class WriterInfo {
 
