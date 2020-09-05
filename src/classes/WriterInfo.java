@@ -18,7 +18,6 @@ public class WriterInfo {
        printCityName(city);
        printCityPopulation(city);
        printCityArea(city);
-       System.out.print("\n");
     }
 
     public static void printCitiesTotalArea(City[] cities) {
@@ -32,6 +31,5 @@ public class WriterInfo {
     public static void printCitiesInformation(City[] cities) {
         printCitiesTotalArea(cities);
         printMillionCitiesAmount(cities);
-        System.out.print("\n");
     }
 }
