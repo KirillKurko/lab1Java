@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         City[] cities = createCities();
         for (City city: cities) {
-            System.out.print("\n");
+            System.out.println();
             WriterInfo.printCityInformation(city);
         }
         System.out.println("\n\n\nTotal information");
